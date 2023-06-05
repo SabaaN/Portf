@@ -1,0 +1,176 @@
+.header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+    z-index: 100;
+    height: 75px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav__menu{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 0px;
+    height: 100vh;
+    display: flex;
+    background-color: var(--bg-color-alt);
+    z-index: 10;
+    transition: all 1s var(--transition);
+}
+
+
+
+.show-menu{
+    width: 450px;
+}
+
+.main__logo{
+    margin-top: 20px;
+    margin-left: 17px;
+    width: 110px;
+    height: auto;
+    cursor: pointer;
+}
+
+.nav__data{
+    padding: 80px 84px 0 154px;
+    margin: auto;
+    width: 100%;
+}
+
+.nav__list{
+    margin-bottom: 40px;
+}
+
+.nav__list li{
+    margin-bottom: 20px;
+}
+
+.nav__link{
+    color: var(--title-color);
+    font-size: var(--h5-font-size);
+    font-weight: 700;
+    transition: all 0.3s var(--transition);
+    cursor: pointer;
+}
+
+.nav__link:hover{
+    color: var(--primary-color);
+}
+
+.header__socials {
+    display: inline-flex;
+    margin-right: 30px; 
+    margin-bottom: 30px;
+}
+
+.scroll-header {
+    position: fixed;
+    background-color: var(--bg-color);
+    animation: header_animate 0.8s var(--transition) 0s forwards;
+}
+ @keyframes header_animate {
+    0% {
+        transform: translateY(-100px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+    
+ }
+
+.header__socials-link {
+    color: var(--title-color);
+    font-size: var(--h5-font-size);
+    transition: all 0.5s var(--transition);
+}
+
+.header__socials-link:hover{
+    color: var(--primary-color)
+}
+
+.nav__btns{
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+}
+
+.theme__toggler{
+    font-size: var(--h4-font-size);
+    display: flex;
+    align-items: center;
+}
+
+.theme__toggler,
+.nav__toggle{
+    cursor: pointer;
+}
+
+.nav__toggle{
+    height: 30px;
+    width: 28px;
+    position: relative;
+    z-index: 100;
+
+}
+
+.nav__toggle span {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: var(--text-color);
+    transition: all 0.3s var(--transition);
+}
+
+.nav__toggle span:first-child {
+    top: 8px;
+
+}
+
+.nav__toggle span:last-child {
+    bottom: 8px;
+
+}
+
+.animate-toggle span:first-child{
+    transform: rotate(-45deg);
+    top: 14px;
+}
+
+.animate-toggle span:last-child{
+    transform: rotate(45deg);
+    bottom: 14px;
+}
+
+.header__deco{
+    left: 75px;
+  }
+  
+.header__deco .shape{
+    top: -200px;
+    left: -168px;
+    z-index: -1;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
