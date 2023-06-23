@@ -37,3 +37,5 @@ npm run dev
 This will launch the website locally, and you can access it in your web browser at http://localhost:3000.
 
 The contact section of the portfolio project is connected with the Spreadsheet API to efficiently manage and store user input. The integration ensures that the contact form submissions are securely collected and organized in a spreadsheet.
+
+This project is licensed under the MIT License. You are free to use, modify, and distribute this project as per the terms of the license.
