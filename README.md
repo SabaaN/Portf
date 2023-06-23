@@ -21,15 +21,19 @@ To install and run this project locally on your machine, please follow these ste
 Clone the repository to your local machine using the following command:
 
 git clone [https://github.com/your-username/your-repository.git](https://github.com/SabaaN/Portf.git)
+
 Navigate to the project directory:
 
 cd portf
+
 Install the required dependencies by running the following command:
 
 npm install
+
 Once you have installed the necessary dependencies, you can start the project by executing the following command:
 
 npm run dev
+
 This will launch the website locally, and you can access it in your web browser at http://localhost:3000.
 
 The contact section of the portfolio project is connected with the Spreadsheet API to efficiently manage and store user input. The integration ensures that the contact form submissions are securely collected and organized in a spreadsheet.
