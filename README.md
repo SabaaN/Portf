@@ -1,4 +1,4 @@
-# Portfolio 
+# Personal Portfolio 
 
 
 This portfolio project is built using React and Vite, providing an interactive and visually appealing website to showcase your skills and projects. The portfolio consists of several sections, including a home page, services, skills, portfolio, and contact. The contact section is integrated with the Spreadsheet API for efficient data management.
