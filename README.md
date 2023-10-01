@@ -5,7 +5,7 @@ This portfolio project is built using React and Vite, providing an interactive a
 
 The Portfolio Project is designed to serve as a personal portfolio website to showcase your skills, projects, and services. It is built using React and Vite, ensuring a fast and optimized development experience. The website features multiple sections to provide comprehensive information to visitors, including a home page, services, skills, portfolio, and contact section.
 
-Home Page: The home page greets visitors and provides an overview of your portfolio, highlighting key information about yourself and your work.
+Home Page: Home page greets visitors and provides an overview of your portfolio, highlighting key information about yourself and your work.
 
 Services: The services section outlines the services you offer, such as web development, UI/UX design, or consulting. It allows potential clients to understand the value you can provide.
 
